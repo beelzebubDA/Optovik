@@ -1,0 +1,546 @@
+.createCardModalOPen {}
+
+.createCardM {}
+
+.createCard-block {
+    padding: 30px 20px;
+    width: 65%;
+    background: #FFFFFF;
+    border-radius: 14px;
+    max-width: 940px !important;
+
+    @media (max-width: 1140px) {
+        width: 100%;
+    }
+
+    @media (max-width: 820px) {
+        width: 100%;
+    }
+
+    .createCard-form {}
+
+    .createCard-inps {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        input {
+            background-color: white;
+            height: 50px;
+
+            &:focus {
+                border-color: #00121A;
+            }
+
+            &:hover {
+                border-color: #00121A;
+            }
+        }
+
+        textarea {
+            &:focus {
+                border-color: #00121A;
+            }
+
+            &:hover {
+                border-color: #00121A;
+            }
+        }
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
+    }
+
+    .createCard-name {
+        width: calc(50% - 5px);
+        border: 1px solid #B9B9B9;
+        background-color: white;
+        border-radius: 4px;
+        height: 43px;
+        padding: 13px;
+
+        @media (max-width: 500px) {
+            width: 100%;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .createCard-email {
+        width: calc(50% - 5px);
+        border: 1px solid #B9B9B9;
+        border-radius: 4px;
+        height: 43px;
+        padding: 13px;
+
+        @media (max-width: 500px) {
+            width: 100%;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .createCard-tel {
+        width: calc(50% - 5px);
+        border: 1px solid #B9B9B9;
+        border-radius: 4px;
+        height: 43px;
+        padding: 13px;
+
+        @media (max-width: 500px) {
+            width: 100%;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .createCard-Cities {
+        width: calc(50% - 5px);
+        border: 1px solid #B9B9B9;
+        border-radius: 4px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        
+        &::after {
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+        }
+
+        &:focus {
+            border-color: #00121A;
+        }
+
+        &:hover {
+            border-color: #00121A;
+        }
+
+        @media (max-width: 500px) {
+            width: 100%;
+        }
+    }
+
+    .createCardArea {
+        width: 100%;
+        height: 80px;
+        padding: 13px;
+        outline: none;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .createCard-B {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .createCard-B-text {
+        padding: 30px 0 20px 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.015em;
+        color: #B9B9B9;
+    }
+
+    .aboutTreaty {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.015em;
+        color: #A63244;
+        margin-bottom: 30px;
+        border-bottom: 1px dashed #A63244;
+        width: max-content;
+    }
+
+    .createCard-postAlot {
+        width: max-content;
+        padding: 13px;
+        background-color: #A63244;
+        outline: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.015em;
+        border: none;
+        border-radius: 4px;
+        color: #FFFFFF;
+    }
+}
+
+.createCard-item {
+    display: flex;
+    align-items: end;
+    gap: 50px;
+    position: relative;
+
+    @media (max-width: 1140px) {
+        gap: 20px;
+    }
+
+    .inModalDelcard  {
+        margin-bottom: 10px;
+        cursor: pointer;
+        
+        @media (max-width: 820px) {
+            position: absolute;
+            right: 0px;
+            border-radius: 4px;
+            padding: 15px 12px;
+            background-color: #B9B9B9;
+            margin-bottom: 0;
+
+            svg {
+                color: white;
+            }
+        }
+
+        @media (max-width: 500px) {
+            top: 30px;
+        }
+    }
+}
+.createCard-top-side {}
+
+.createCard-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.createCard-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #0A1F44;
+}
+
+.createCard-T-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    padding-top: 10px;
+    color: #A63244;
+    display: block;
+    border-bottom: 1px dashed #A63244;
+    width: max-content;
+    text-decoration: none;
+
+    &:hover {
+        color: #A63244;
+    }
+}
+
+.createCard-main-side {
+    padding: 25px 0  50px 0;
+}
+
+.createCard-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.createCard-item-sides {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+
+    @media (max-width: 820px) {
+        flex-wrap: wrap;
+    }
+}
+
+.createCard-item-L__side {
+    position: relative;
+    
+    @media (max-width: 820px) {
+        width: 100%;
+
+        .createCard-search {
+            max-width: 100%;
+            width: 100%;
+            height: 50px;
+        }
+    }
+    .no {
+        &-results-messages {
+            position: absolute;
+            z-index: 2;
+        }
+    }
+    
+}
+
+.createCard-item-L-L__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    color: #0A1F44;
+    padding-bottom: 14px;
+    display: block;
+
+}
+
+.createCard-item-L-R {
+}
+
+.createCard-search {
+    max-width: 280px;
+    border: 1px solid #B9B9B9;
+    border-radius: 4px;
+    height: 43px;
+    color: #000000;
+
+    .noProduct {
+        border: 1px solid #A63244;
+    }
+}
+
+.createCard-searching-list {
+    position: absolute;
+    background-color: white;
+    z-index: 15;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    flex-direction: column;
+    max-height: 250px;
+    overflow-y: scroll;
+    border: 1px solid #969696;
+    border-top: none;
+    top: 80px;
+    display: none;
+
+    li {
+        display: none;
+    }
+
+    .createCard-list-item {
+        padding: 5px 10px;
+
+        a {
+            text-decoration: none;
+            color: #0A1F44;
+
+            &:hover {
+                color: #0A1F44;
+            }
+        }
+
+        &:hover {
+            background-color: #bbbac4;
+        }
+    }
+}
+
+.createCard-item-R__sides {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+
+    @media (max-width: 500px) {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.createCard-item-R__side {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+
+    @media (max-width: 820px) {
+        width: 92%;
+    }
+
+    @media (max-width: 500px) {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+.createCard-item-R-L-L__side {
+    display: flex;
+    flex-direction: column;
+    max-width: 125px;
+    width: 100%;
+
+    @media (max-width: 500px) {
+        max-width: 50%;
+    }
+}
+
+.createCard-item-R__inf {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px; 
+    letter-spacing: 0.015em;
+    color: #969696;
+    width: max-content;
+}
+
+.createCard-item-R__name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.71px;
+    letter-spacing: 0.015em;
+    width: max-content;
+    padding: 10px 0 34px 0;
+
+    @media (max-width: 820px) {
+        padding: 10px 0;
+    }
+
+}
+
+.createCard-item-R__price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    color: #A63244;
+    padding-bottom: 12px;
+
+    @media (max-width: 820px) {
+        padding: 13px 0 13px 13px;
+        border: 1px dashed #E4E4E4;
+        border-radius: 4px;
+        height: 50px;
+    }
+}
+
+.createCard-item-R-L-R__side {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 500px) {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .createCard-item-R__name {
+        padding: 10px 0 12px 0;
+    }
+}
+
+.createCard-item-number {
+    .productCounts {
+        border: 1px solid #B9B9B9;
+        border-radius: 4px;
+        height: 43px;
+    }
+}
+
+.createCard-item-R-R__sides {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+
+    @media (max-width: 500px) {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.createCard-item-R-R-R-L__side {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 500px) {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .createCard-item-R__name {
+        padding: 10px 0 12px 0;
+    }
+}
+
+.createCard-item-R-R-R-L__inp {
+    border: 1px solid #B9B9B9;
+    border-radius: 4px;
+    height: 43px;
+
+    @media (max-width: 820px) {
+        height: 50px;
+    }
+}
+
+.createCard-item-R-R-R__side {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 500px) {
+        width: 100%;
+        max-width: 50%;
+    }
+}
+
+.number {
+    &-minus {
+        cursor: pointer;
+    }
+
+    &-plus {
+        cursor: pointer;
+    }
+}
+
+.input {
+    &_small {}
+}
+
+.delete {
+    &__card {
+        &.inModalDelcard {
+            padding-bottom: 10px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        svg {
+            width: 19px;
+            height: 21px;
+            color: grey;
+        }
+    }
+}
+
+.addCardsBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .addingCreateCard-btn {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: #A63244;
+        text-align: center;
+    
+    }
+}
